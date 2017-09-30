@@ -27,21 +27,6 @@ public class littleTests {
 			}
 		}
 		
-//		for(i = 0;i < 2015;i++)
-//			test.add("off");
-//		
-//		for(i = 1;i<=2015;i++) {
-//			for(int j=0;j<2015;j++) {
-//				if((j+1) % i == 0) {
-//					if(test.get(j) == "off")
-//						test.set(j, "on");
-//					else
-//						test.set(j, "off");
-//				}
-//			}
-//				
-//		}
-				
 		int count = 0;
 		for (int j = 0; j < 2015; j++) {
 			if(test.get(j).equals("on")) {
